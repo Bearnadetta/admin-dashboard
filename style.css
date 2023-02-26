@@ -4,7 +4,7 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 .page {
     height: 100vh;
@@ -16,7 +16,8 @@
 .sidebar {
     grid-column: 1/2;
     grid-row: 1/6;
-    background-color: aqua;
+    background-color: #7E2A9F;
+    color: white;
     
 }
 .sidebar-content {
@@ -59,6 +60,9 @@
     grid-template-columns: repeat(8, 1fr);
     
 }
+.main-label {
+    padding: 10px
+}
 .main-projects {
    grid-column: 1/7;
 
@@ -71,9 +75,9 @@
 }
 .project-item {
     background-color: white;
-    padding: 10%;
+    padding: 30px;
     margin: 10px;
-    box-shadow: inset 10px 0px 0px orange;
+    box-shadow: inset 10px 0px 0px #CB6CD8;
     border-radius: 10px;
 }
 .main-announcements {
@@ -84,9 +88,16 @@
 }
 .announcement-items {
     background-color: white;
+    padding: 20px;
+    border-radius: 10px
+}
+.announcement {
+    margin: 10px
 }
 .trending-account-container {
     background-color: white;
+    align-self: flex-end;
+    border-radius: 10px;
 }
 .trending-account {
     display: flex;
